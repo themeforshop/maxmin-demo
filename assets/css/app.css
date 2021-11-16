@@ -275,11 +275,11 @@ margin: 0;
 width: 100%;
 }
 .bestUXTheme-layout .bestUXTheme-content .caption .page-heading p{
-font-weight: 300;
 line-height: 1.7em;
 font-family: 'Playfair Display', serif;
 font-size: 18px;
-color: #fff;
+color: #f87733;
+font-weight: 600;
 font-style: italic;
 margin: 0;
 }
