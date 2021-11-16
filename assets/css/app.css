@@ -358,16 +358,16 @@ position: relative;
 padding: 15px;
 background: #fff;
 border-radius: 10px;
+overflow: hidden;
 box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 }
 .demoTheme-layout .demoTheme-content .scrollingImage{
 background-position: center top;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: 105%;
 
-transition: all 3000ms ease; 
--ms-transition: all 3000ms ease;
--webkit-transition: all 3000ms ease;
+transition: all 5000ms ease; 
+
 }
 .demoTheme-layout .demoTheme-content .scrollingImage:hover{
 background-position: center bottom;
@@ -379,8 +379,7 @@ background-position: center top;
 padding-bottom: 52% !important;
 }
 .demoTheme-layout .demoTheme-content figure{
-margin: 0;
-padding: 15px;
+	margin: 0; padding: 0 0 15px 0;
 }
 .demoTheme-layout .demoTheme-content figure a{
 display: block;	
